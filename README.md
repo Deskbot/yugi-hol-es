@@ -1,7 +1,7 @@
 Yugi Holes
 ==========
 
-So called because I needed a name for the website; it was hosted under a free URL, and one of the choices was .hol.es, so yugi.hol.es it was.
+So called because I needed a name for the website; it was hosted under a free domain, and one of the choices of ending was .hol.es, so yugi.hol.es it was.
 
 About
 -----
