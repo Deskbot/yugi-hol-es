@@ -1,0 +1,151 @@
+/* 1C6B85,357C93,5396AC,7FB9CC,B5DBE8
+ * 858585,D4D4D4,ACACAC,CCCCCC,E8E8E8
+*/
+
+* {
+	letter-spacing: 0;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    background: linear-gradient(top, #5396ac, #B5DBE8);
+    background: -webkit-linear-gradient(top, #5396ac, #B5DBE8);
+	background: -moz-linear-gradient(top, #5396ac, #B5DBE8);
+	background: -ms-linear-gradient(top, #5396ac, #B5DBE8);
+	background: -o-linear-gradient(top, #5396ac, #B5DBE8);
+	background-color: #B5DBE8;
+	background-repeat: no-repeat;
+	
+	font-family: Helvetica;
+	font-size: 14px;
+	height: 100%;
+}
+
+h1 {
+	color: #858585;
+	font-family: cursive;
+	font-size: 40px;
+}
+h2 {
+	color: #E8E8E8;
+	font-family: cursive;
+	margin: 0 auto;
+	width: 80%;
+}
+h3 {
+	margin-top: 15px;
+}
+h3.first {
+	margin-top: 0;
+}
+
+p {
+	margin: 0 0 1px 0;
+	line-height: 125%;
+}
+
+header {
+	background-color: white;
+	border: 5px #1C6B85 solid;
+	border-radius: 10px;
+	font-family: cursive;
+	margin: 10px;
+	min-width: 620px;
+	text-align: center;
+}
+header nav {
+	border-top: 2px #E8E8E8 solid;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 0;
+	width: 95%;
+}
+header nav li {
+	background-color: white;
+	border: 1px #858585 solid;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0 5px;
+	text-decoration: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: text-center;
+	width: 100px;
+}
+header nav li a {
+	color: #858585;
+	font-weight: bold;
+	display: block;
+	font-family: cursive;
+	text-decoration: none;
+}
+
+#content {
+	background-color: white;
+	border: 2px #1C6B85 solid;
+	border-radius: 5px;
+	margin: 10px auto;
+	min-width: 620px;
+	padding: 4px 10px;
+	width: 80%;
+}
+
+form {
+	border: 1px solid #1C6B85;
+	border-radius: 2.5px;
+	margin: 10px auto;
+	padding: 4px 6px;
+	width: 90%;
+}
+form.one-click {
+	border: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+input, button {
+    padding: 1px 4px;
+    margin: 2px 0;
+}
+input[type="checkbox"] {
+	vertical-align: middle;
+}
+input[type="text"], input[type="number"] {/*vertical-align: middle;*/
+	width: 200px;
+}
+select {
+	width: 100px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+table tr {
+    border: 1px solid #ACACAC;
+    border-width: 0 0 1px 0;
+}
+table th {
+    padding: 2px;
+	text-align: left;
+}
+table td {
+	padding: 2px;
+}
+
+footer {
+	background-color: #FFFFFF;
+	border: 1px #1C6B85 solid;
+	border-radius: 2.5px;
+	font-size: 12px;
+	margin: 10px auto;
+	min-width: 620px;
+	padding: 2px 5px;
+	width: 70%;
+}

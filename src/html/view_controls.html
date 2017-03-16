@@ -1,0 +1,33 @@
+<h3>Options</h3>
+<div id="viewControls">
+	<button id="changeRequestButton">Change Request</button>
+	
+	<form action="submission/delete_request.php" class="one-click" id="deleteRequestForm" method="post">
+		<input type="submit" value="Delete Request">
+		<input name="requestID" type="hidden" value="[requestID]">
+	</form>
+	
+	<form action="submission/change_request.php" id="changeRequestForm" method="POST">
+		<div>
+			<span>Edition:&nbsp;</span>
+			<select name="edition">
+				<option [selected_1] value="1">1st</option>
+				<option [selected_u] value="u">Unlimited</option>
+				<option [selected_o] value="o">Other</option>
+				<option [selected_a] title="This isn't wise for making sleeves." value="a">Any</option>
+			</select>
+		</div>
+		<div>
+			<input min="0" name="quantity" placeholder="Quantity Wanted" type="number">
+			<input [checked] id="infinite_checkbox" name="infinite" type="checkbox">
+			<label for="infinite_checkbox">Infinitely Many</label>
+		</div>
+		<div>
+			<input name="note" placeholder="Additional Notes" type="text" value="[note]">
+		</div>
+		<div>
+			<input type="submit">
+		</div>
+		<input name="requestID" type="hidden" value="[requestID]">
+	</form>
+</div>

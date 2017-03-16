@@ -1,0 +1,12 @@
+table.request-table.multi-line tr:hover:not(.head-row) {
+	background-color: #B5DBE8;
+	cursor: pointer;
+}
+table th.th-head {
+	text-align: center;
+}
+table tr.quantity-heads th {
+    text-decoration: underline;
+	-moz-text-decoration-style: dotted;
+	width: 40px;
+}

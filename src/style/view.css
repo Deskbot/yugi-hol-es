@@ -1,0 +1,10 @@
+#deleteRequestForm {
+	display: inline-block;
+	width: auto;
+}
+#changeRequestForm {
+	display: none;
+}
+#changeRequestForm.visible {
+	display: block;
+}
